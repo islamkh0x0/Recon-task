@@ -1,0 +1,11 @@
+- Log Files Exposing Authentication Tokens
+- Exposed Directory Leaking Source Code
+- Stored XSS
+- Self XSS
+- Accessing Internal Network via VHOST
+- Web Cash Deception
+- Database Credentials
+- Broken Access Control
+- Account Takeover
+- Open redirect
+- RCE
