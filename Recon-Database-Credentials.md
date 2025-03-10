@@ -50,7 +50,7 @@ asnmap -d example.com | dnsx -silent -resp-only -ptr > ~/recon/targets/example.c
 -  Ffuf
    performs Virtual Host (VHost) enumeration to find Subdomains not in DNS.
    
-   ```bash
+```bash
    cat subdomains-top1million-50000.txt | ffuf -w -:FUZZ -u http://example.com/ -H 'Host: FUZZ.example.com' -ac
 ```
 
@@ -131,4 +131,4 @@ exclude-tags:
 ```
 
 
-[[Full Details- recon 1]]
+
